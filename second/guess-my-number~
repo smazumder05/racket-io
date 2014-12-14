@@ -1,0 +1,8 @@
+#lang racket
+
+;define the boundaries big and small
+(define *BIG* 100)
+(define *SMALL* 1)
+
+(define guess-my-number
+

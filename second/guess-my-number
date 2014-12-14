@@ -1,0 +1,28 @@
+#lang racket/load ;loads base libraries
+
+;
+; Guess My Number is a game.
+;
+; (define (return-five) 5) #basic definition of a function with nop args
+
+;define the boundaries big and small
+(define *BIG* 100)
+(define *SMALL* 1)
+
+; Uses arithmetic right shift to divide a number by half.
+(define (guess-my-number) (arithmetic-shift (+ *BIG* *SMALL*) -1))
+
+; Set the upper number to be 1 less than the guessed upper number
+(define (smaller) (set! *BIG* (max *SMALL* (sub1 (guess-my-number))))
+                                  (guess-my-number))
+
+; Set the lower number to be 1 more than the guessed upper number
+(define (bigger) (set! *SMALL* (min *BIG* (add1 (guess-my-number))))
+              (guess-my-number))
+
+;  Main entry point
+(define (start n m)
+ (set! *SMALL* (min n m))
+ (set! *BIG* (max n m))
+ (guess-my-number))
+
