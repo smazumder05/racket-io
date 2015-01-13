@@ -20,3 +20,4 @@ Resources
 ### Racket Resources
 
 - [Complete Racket Syntax Tree](http://docs.racket-lang.org/htdp-langs/advanced.html?q=local#%28form._%28%28lib._lang%2Fhtdp-advanced..rkt%29._lambda%29%29)
+- [Racket Documentation](http://docs.racket-lang.org/)
