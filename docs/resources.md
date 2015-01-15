@@ -13,3 +13,12 @@ Resources
 6. [Pyret](http://www.pyret.org/#examples)
 
 7. [Racket repositories in github](https://github.com/trending?l=racket)
+
+8. [SICP - resources](http://www.billthelizard.com/2009/10/sicp-challenge.html)
+
+
+### Racket Resources
+
+- [Complete Racket Syntax Tree](http://docs.racket-lang.org/htdp-langs/advanced.html?q=local#%28form._%28%28lib._lang%2Fhtdp-advanced..rkt%29._lambda%29%29)
+- [Racket Documentation](http://docs.racket-lang.org/)
+- [Racket solution Rosetta code](http://rosettacode.org/wiki/Category:Racket)
